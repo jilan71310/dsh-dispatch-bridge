@@ -65,6 +65,7 @@ Endpoint notes, envelope shape, and the full list of files are in [docs/DETAIL.m
 
 - Host-side bundle (`dsh.bundle` in `package.json`), no build step, no runtime dependencies.
 - Works with DSH 0.2.x hosts.
+- Needs a host surface that provides the `connection` and `webServer` services — the desktop app, or a profile whose bundles include `@deepseek-ai/dsh-web-app`. In a profile built from `@deepseek-ai/dsh-base` alone the entry stays pending with `waiting for services: connection, webServer` and nothing is written.
 - Does not weaken access rules: unsigned requests still get `401`; the plugin only republishes the credential the host already requires.
 
 ## License
