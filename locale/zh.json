@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "调度桥",
+    "description": "把本机宿主的授权地址与工作区快照写到 ~/.dsh/dispatch/，让本地自动化客户端通过普通 /api 端点把会话创建到指定工作区、发消息并读取回复。",
+    "detail": "docs/DETAIL.md"
+  }
+}

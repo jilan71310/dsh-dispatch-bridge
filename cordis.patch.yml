@@ -1,0 +1,5 @@
+# Dispatch bridge: republish this host's authenticated local URL for automation clients.
+
+- insert:
+    - id: dispatch-bridge
+      name: dsh-dispatch-bridge

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Dispatch bridge",
+    "description": "Writes this host's local authenticated URL and a workspace snapshot to ~/.dsh/dispatch/, so a local automation client can create sessions inside a chosen workspace, send prompts and read replies over the ordinary /api endpoints.",
+    "detail": "docs/DETAIL.md"
+  }
+}
